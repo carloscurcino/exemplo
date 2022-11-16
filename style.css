@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    background: rgb(52, 92, 151);
+}
+
+header {
+     color: white;
+     text-align: center;
+}
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+    
+}
+
+footer {
+    color: white;
+    text-align: center;
+}
+#font1 {
+    font-size: 10px;
+}
+
+#font2{
+    font-size: 10px;
+}
+#test{
+    text-align: center;
+}
+
+#center{
+   text-align: center;
+   
+}
+
+//CADASTRO
+:root{
+    --cor-primairia-matat : rgb(182, 196, 218);
+    --cor-hover-matat : rgb(108, 138, 185);
+    --cor-secundaria-matat: rgb(52, 92, 151);
+
+    --cor-primairia-matpen : rgb(182, 196, 218);
+    --cor-hover-matpen : rgb(108, 138, 185);
+    --cor-secundaria-matpen: rgb(52, 92, 151);
+
+    --cor-primairia-matcon : rgb(182, 196, 218);
+    --cor-hover-matcon : rgb(108, 138, 185);
+    --cor-secundaria-matcon: rgb(52, 92, 151);
+
+    --cor-primairia-matprox : rgb(182, 196, 218);
+    --cor-hover-matprox : rgb(108, 138, 185);
+    --cor-secundaria-matprox: rgb(52, 92, 151);
+}
+.btn{
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+    display: inline-block;
+}
+/*BOTÂO MATAT*/
+.btn-matat{
+    background-color: var(--cor-primairia-matat);
+    outline:none;
+    color: black;
+}
+.btn-matat:hover{
+    background-color: var(--cor-hover-matat);
+    
+}
+.btn-matat:active{
+    color: white;
+    background-color: var(--cor-secundaria-matat);
+    
+}
+/*BOTÂO MATPEN*/
+.btn-matpen{
+    background-color: var(--cor-primairia-matat);
+    outline:none;
+    color: black;
+}
+.btn-matpen:hover{
+    background-color: var(--cor-hover-matat);
+    
+}
+.btn-matpen:active{
+    color: white;
+    background-color: var(--cor-secundaria-matat);
+    
+}
+/*BOTÂO MATCON*/
+.btn-matcon{
+    background-color: var(--cor-primairia-matat);
+    outline:none;
+    color: black;
+}
+.btn-matcon:hover{
+    background-color: var(--cor-hover-matat);
+    
+}
+.btn-matcon:active{
+    color: white;
+    background-color: var(--cor-secundaria-matat);
+    
+}
+/*BOTÂO MATPOX*/
+.btn-matprox{
+    background-color: var(--cor-primairia-matat);
+    outline:none;
+    color: black;
+}
+.btn-matprox:hover{
+    background-color: var(--cor-hover-matat);
+    
+}
+.btn-matprox:active{
+    color: white;
+    background-color: var(--cor-secundaria-matat);
+    
+}
+
+/*Página de Config*/
+#bodyconfig{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c0ce94d;
+}
+
+.container{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+.form-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fde3a7d7;
+    padding: 1rem;
+}
+.form-image img{
+    width: 31rem;
+}
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 3rem;
+}
+
+.form-header h1::after{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #6c63ff;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+.input-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+.input-box input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+.input-box input:hover{
+    background-color: #eeeeee75;
+}
+.input-box input:focus-visible{
+    outline: 1px solid #6c63ff;
+}
+.input-box input::placeholder{
+    color: #000000be;
+}
+.input-box select{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+}
+.input-box select:hover{
+    background-color: #eeeeee75;
+}
+.input-box select:focus-visible{
+    outline: 1px solid #6c63ff;
+}
+.input-box select::placeholder{
+    color: #000000be;
+}
+.continue-button button{
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #6c63ff;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.continue-button button:hover{
+    background-color: #6b63fff1;
+}
+.continue-button button a{
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+/*DEIXAR RESPONSIVO*/
+
+@media screen and (max-width: 1200px){
+    .form-image{
+        display: none;
+    }
+    .container{
+        width: 50%; 
+    }
+    .form{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .container{
+        width: 90%;
+        height: auto;
+    }
+    .input-group{
+        flex-direction: column;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        max-height: 10rem;
+        padding-right: 5rem;
+    }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Config</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="animation.js"></script> 
+</head>
+<body id="bodyconfig">
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img/undraw_education_f8ru.svg" alt="Representative image with a woman upon books. Representing the education">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1><strong>Configurações iniciais:</strong></h1>
+                        <br>
+                        <h5>Indique qual seu curso e periodo</h5>
+                    </div>
+                </div> 
+                <div class="input-group">
+                        <div class="input-box">
+                            <label for="nome">Nome de úsuario:</label>
+                            <input type="text" id="nome" placeholder="Nome aqui" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="curso">Curso:</label>
+                            <select name="curso" id="curso" required>
+                                <option value="" selected disabled>Selecione</option>
+                                <option value="comput">Ciência da computação</option>
+                            </select>
+                        </div>
+                        <div class="input-box">
+                            <label for="periodo">Qual seu periodo atual?</label>
+                            <input type="number" id="periodo" placeholder="Periodo Atual" required>
+                        </div>
+                        
+                </div>
+               
+                <div class="continue-button">
+                            <button onclick="redirectmain()"><a href="#">Continuar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
